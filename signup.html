@@ -8,19 +8,48 @@
   <div class="container">
     <h1 class="text-center mt-5">Create a New Account</h1>
     <form action="#" class="mt-5 ">
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
       <div class="mb-3">
         <label for="username" class="form-label"></label>
         <input type="text" class="form-control" id="username"  placeholder="Username" required>
-        <p class="text-center">We'll never share your email with anyone else.</p>
       </div>
       <div class="mb-3">
         <label for="email" class="form-label mt-1"></label>
         <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+        <p class="text-center">We'll never share your email with anyone else.</p>
+
       </div>
       <div class="mb-3">
         <label for="password" class="form-label"></label>
         <input type="password" class="form-control" id="password" placeholder="Password" required>
         <p class="text-center">Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.</p>
+      </div>
+      <h5>Select Gender.</h5>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Male
+        </label>
+      </div>
+      <div class="form-check mb-2">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          Female
+        </label>
+      </div>
+     .<div class="container-fluid">
+      <div style="border-bottom: 2px solid black; margin: auto;"></div>
+     </div>
+      <div class="input-group my-3">
+        <span class="input-group-text">Give Us FeedBack.</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
       </div>
       <button type="submit" class="btn btn-primary">Sign Up</button>
       <p class="mt-3">Already have an account? <a href="login.html">Log in</a></p>
@@ -28,3 +57,5 @@
   </div>
 </body>
 </html>
+
+
